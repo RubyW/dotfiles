@@ -1,4 +1,6 @@
 
+return
+
 if [[ ! -d /Applications/MAMP/bin/php/ ]]; then
 	return
 fi
