@@ -9,3 +9,8 @@ alias nw='/Applications/node-webkit.app/Contents/MacOS/node-webkit'
 
 #use bt as shortcut for buildTools
 alias bt='nw ~/Documents/Projects/SugarCRM/BuildTool'
+
+#elastic search related
+alias start-elastic='launchctl load -wF ~/Library/LaunchAgents/homebrew.mxcl.elasticsearch.plist'
+alias stop-elastic='launchctl unload -wF ~/Library/LaunchAgents/homebrew.mxcl.elasticsearch.plist'
+alias view-elastic-log='open /usr/local/var/log/elasticsearch/elasticsearch_`whoami`.log'
